@@ -6,13 +6,15 @@
 
 QT       -= gui
 
-TARGET = Chess
+TARGET = Football
 TEMPLATE = lib
 CONFIG += staticlib
 
-SOURCES += Chess.cpp
+SOURCES += \
+    Football.cpp
 
-HEADERS += Chess.h
+HEADERS += \
+    Football.h
 unix {
     target.path = /usr/lib
     INSTALLS += target
