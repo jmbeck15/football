@@ -11,11 +11,9 @@ TEMPLATE = lib
 CONFIG += staticlib
 
 SOURCES += \
-    Football.cpp \
     Engine.cpp
 
 HEADERS += \
-    Football.h \
     Engine.h
 unix {
     target.path = /usr/lib
