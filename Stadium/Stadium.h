@@ -1,6 +1,8 @@
-#ifndef STADIUM_H
-#define STADIUM_H
+#ifndef STADIUM_STADIUM_H
+#define STADIUM_STADIUM_H
 
+namespace Stadium
+{
 
 class Stadium
 {
@@ -9,4 +11,6 @@ public:
     Stadium();
 };
 
-#endif // STADIUM_H
+} // namespace Stadium
+
+#endif // STADIUM_STADIUM_H

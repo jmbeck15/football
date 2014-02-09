@@ -12,7 +12,8 @@ CONFIG += staticlib
 
 SOURCES += Stadium.cpp
 
-HEADERS += Stadium.h
+HEADERS += Stadium.h \
+    Engine.h
 unix {
     target.path = /usr/lib
     INSTALLS += target
