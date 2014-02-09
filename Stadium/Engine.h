@@ -10,8 +10,7 @@ class Engine : public QObject
     Q_OBJECT
 
 public:
-    Engine();
-    virtual ~Engine() = 0;
+//    virtual ~Engine() = 0;
 
 public slots:
     virtual void executeCommand() = 0;
