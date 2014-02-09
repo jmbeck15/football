@@ -11,10 +11,12 @@ TEMPLATE = lib
 CONFIG += staticlib
 
 SOURCES += \
-    Football.cpp
+    Football.cpp \
+    Engine.cpp
 
 HEADERS += \
-    Football.h
+    Football.h \
+    Engine.h
 unix {
     target.path = /usr/lib
     INSTALLS += target

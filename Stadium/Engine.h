@@ -9,7 +9,8 @@ class Engine : public QObject
 {
     Q_OBJECT
 
-    Engine() {}
+public:
+    Engine();
     virtual ~Engine() = 0;
 
 public slots:
