@@ -1,6 +1,6 @@
-#include "Chess.h"
+#include "Football.h"
 
 
-Chess::Chess()
+Football::Football::Football()
 {
 }

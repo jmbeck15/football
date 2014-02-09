@@ -1,12 +1,16 @@
-#ifndef CHESS_H
-#define CHESS_H
+#ifndef FOOTBALL_FOOTBALL_H
+#define FOOTBALL_FOOTBALL_H
 
+namespace Football
+{
 
-class Chess
+class Football
 {
 
 public:
-    Chess();
+    Football();
 };
 
-#endif // CHESS_H
+} // namespace Football
+
+#endif // FOOTBALL_FOOTBALL_H
