@@ -9,9 +9,6 @@ class Engine : public QObject
 {
     Q_OBJECT
 
-public:
-//    virtual ~Engine() = 0;
-
 public slots:
     virtual void executeCommand() = 0;
 
