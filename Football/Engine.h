@@ -2,7 +2,6 @@
 #define FOOTBALL_ENGINE_H
 
 #include <QObject>
-#include <QDebug>
 #include "../Stadium/Engine.h"
 
 namespace Football
@@ -13,16 +12,14 @@ class Engine : public Stadium::Engine
     Q_OBJECT
 
 public:
-    Engine() {
-        qDebug() << "[Football::Engine] Created.";
-    }
-
+    Engine();
     ~Engine() {}
 
 public slots:
     void executeCommand();
 
 };
+
 
 } // namespace Football
 
